@@ -22,3 +22,15 @@ export interface World {
   uploadProgress?: number; // 0-100
   commits: Commit[];
 }
+
+export interface AppConfig {
+  username: string;
+  avatarId: string;
+  clientId: string;
+  clientSecret: string;
+}
+
+export interface LocalWorld {
+  name: string;
+  path: string;
+}
